@@ -171,6 +171,11 @@ const Home = (props: HomeProps) => {
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
 
+        {<p> </p>}
+        {<p> </p>}
+        {<p> </p>}
+        {<p> </p>}
+        
       {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
 
       {wallet && <p>Total Available: {itemsAvailable}</p>}
